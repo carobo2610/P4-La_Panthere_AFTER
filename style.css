@@ -648,7 +648,8 @@ label,
 a {
     font-family: "helvetica", Arial;
     font-weight: 400;
-    color: White!important;
+    font-size: 18px;
+    color: black!important;
 }
 
 .container {
@@ -674,7 +675,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -683,8 +684,8 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
+    font-size: 32px;
+    font-family: "helvetica", Arial;
 }
 
 .cta-hero {
@@ -702,7 +703,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -815,6 +816,7 @@ h4 {
 }
 .partenaires{
     color: white;
+    font-size: 18px;
 }
 
 @media (max-width: 1024px) {
