@@ -83,7 +83,6 @@ a:hover {
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -505,6 +504,13 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 300px; 
+    height: 40px;
+}
+#message{
+    width: 700px;
+    height: 100px;
+    margin-top: 20px;
 }
 
 .scrollToTop {
@@ -651,6 +657,12 @@ a {
     font-size: 18px;
     color: black!important;
 }
+.form-group{
+    margin: 20px;
+}
+label{
+    padding: 20px 20px 20px 0px;
+}
 
 .container {
     max-width: 1000px;
@@ -658,6 +670,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+   
 }
 
 .hero-bloc-text-sub {
@@ -695,6 +708,8 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    border: none;
+    border-radius: 20px;
 }
 
 .social {
@@ -773,7 +788,9 @@ h4 {
 }
 
 .tc-white {
-    color: white !important;
+    color: black !important;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-atomic-tangerine {
