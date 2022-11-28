@@ -84,7 +84,6 @@ a:hover {
     content: "";
     background-size: 2px 2px;
     position: absolute;
-    
     top: 0;
     bottom: 0;
     left: 0;
@@ -134,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -151,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -346,21 +345,7 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
 }
-/* suppression du bouton toggler
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
 
-.navbar-toggle:hover {
-    background: transparent!important;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
-}
-*/
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -661,9 +646,9 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", Arial;
     font-weight: 400;
-    color: #575757!important;
+    color: White!important;
 }
 
 .container {
@@ -725,7 +710,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: black!important;
 }
 
 .med-width-whitespace {
@@ -735,11 +720,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 
 .icons {
@@ -787,12 +772,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -821,20 +806,15 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+.partenaires{
+    color: white;
 }
 
 @media (max-width: 1024px) {
@@ -958,7 +938,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: black;
     }
     .hero {
         padding: 50px 0;
@@ -1052,3 +1032,4 @@ h4 {
         text-align: center;
     }
 }
+
