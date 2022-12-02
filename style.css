@@ -83,7 +83,6 @@ a:hover {
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -91,8 +90,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    
 }
 
 .b-parallax {
@@ -133,7 +132,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +149,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -290,7 +289,9 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    
 }
+
 
 .navbar-brand {
     height: auto;
@@ -320,7 +321,14 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    list-style-type: none;
+    
 }
+/*ajout de cette propriété*/
+.navbar a{
+    text-decoration: none;
+}
+
 
 .nav > li {
     float: left;
@@ -337,20 +345,6 @@ a:hover {
     background: transparent;
 }
 
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
-
-.navbar-toggle:hover {
-    background: transparent!important;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
-}
-
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -360,7 +354,9 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+    
 }
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -508,6 +504,13 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 300px; 
+    height: 40px;
+}
+#message{
+    width: 700px;
+    height: 100px;
+    margin-top: 20px;
 }
 
 .scrollToTop {
@@ -604,7 +607,7 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: white;
 }
 
 .next-lightbox,
@@ -649,9 +652,16 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", Arial;
     font-weight: 400;
-    color: #575757!important;
+    font-size: 16px;
+    color: black!important;
+}
+.form-group{
+    margin: 20px;
+}
+label{
+    padding: 10px 20px 10px 0px;
 }
 
 .container {
@@ -660,6 +670,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+   
 }
 
 .hero-bloc-text-sub {
@@ -677,8 +688,9 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -686,8 +698,9 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
+    font-size: 32px;
+    font-family: "helvetica", Arial;
+    color: white!important;
 }
 
 .cta-hero {
@@ -697,6 +710,8 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    border: none;
+    border-radius: 20px;
 }
 
 .social {
@@ -705,7 +720,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
@@ -713,7 +728,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: rgb(60, 59, 59)!important;
 }
 
 .med-width-whitespace {
@@ -723,11 +738,14 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
+}
+.text-center2{
+    color:black
 }
 
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 
 .icons {
@@ -736,7 +754,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -747,7 +765,12 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
-
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+}
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -775,12 +798,14 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -809,14 +834,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
@@ -824,6 +841,12 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+.partenaires{
+    color: black;
+    font-size: 16px;
+}
+
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -848,13 +871,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +895,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +904,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -946,7 +964,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: black;
     }
     .hero {
         padding: 50px 0;
@@ -1026,6 +1044,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    /*mise ne page portfolio version mobile*/
+    .col-sm-6 a{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1040,3 +1063,4 @@ h4 {
         text-align: center;
     }
 }
+

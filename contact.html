@@ -58,10 +58,10 @@
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-12">
-							<h1 class="text-center hero-bloc-text tc-white">
+							<h1 class="text-center hero-bloc-text tc-white2">
 								Parlons web design !
 							</h1>
-							<p class="text-center mg-lg tc-white tight-width-whitespace">
+							<p class="text-center mg-lg tc-white2 tight-width-whitespace">
 								Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 								Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 							</p>
@@ -79,16 +79,17 @@
 							<form method="post" action="#" id="form_1" novalidate>
 								<div class="form-group">
 									<label for="name">
-										Votre Nom *
+
+										Nom
 									</label>
-									<input id="name" class="form-control" title="Saisissez votre nom" required>
+									<input id="name" class="form-control" title="Saisissez votre nom" aria-label="saisissez votre nom" required>
 								</div>
 								<div class="form-group">
 									<label for="email">
-										Votre Adresse email *
+										Adresse email
 									</label>
 									<input id="email" class="form-control" type="email" placeholder="nom.prénom@mail.com" 
-									title="Saississez votre email"  required>
+									title="Saississez votre adresse email" aria-label="saisissez votre adresse mail">
 								</div>
 								<div class="form-group">
 									<label for="know-us">
@@ -96,7 +97,7 @@
 									</label>
 									<input class="form-control" type="text" placeholder="exemple: réseaux sociaux..." 
 									required title="Indiquer comment nous avez-vous connu? 
-									Par Exemple, les réseaux sociaux, du bouche à oreille..."  id="know-us">
+									Par Exemple, les réseaux sociaux, du bouche à oreille..." id="know-us" aria-label="Expliquez comment vous avez connu l'entreprise">
 								</div>
 								<div class="form-group">
 									<label for="message">
@@ -104,8 +105,7 @@
 									</label><textarea id="message" class="form-control" rows="4" cols="50" 
 									title="Ecrivez un brief du projet avec le plus de détails possible" required></textarea>
 								</div> 
-								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" value="Envoyer">Envoyer
-									
+								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" value="Envoyer" aria-label="Faites un résumé de votre projet" >Envoyer
 								</button>
 							</form>
 						</div>
