@@ -655,7 +655,7 @@ a {
     font-family: "helvetica", Arial;
     font-weight: 400;
     font-size: 16px;
-    color: black!important;
+    color: black;
 }
 .form-group{
     margin: 20px;
@@ -835,17 +835,31 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere_w.webp");
+
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation_w.webp");
+    
+    
 }
 .partenaires{
     color: black;
     font-size: 16px;
 }
-
+.name-quote{
+   color: rgb(95, 93, 93); 
+   font-size: 22px;
+   margin: 0px;
+}
+.quote{
+    color: rgb(73, 73, 73); 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px;
+}
 
 
 @media (max-width: 1024px) {
