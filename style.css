@@ -607,7 +607,7 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color: white;
 }
 
 .next-lightbox,
@@ -691,6 +691,7 @@ p {
     font-size: 16px;
 }
 
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -700,8 +701,6 @@ p {
     font-size: 32px;
     font-family: "helvetica", Arial;
     color: white!important;
-
-
 }
 
 .cta-hero {
@@ -729,7 +728,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: grey!important;
+    color: rgb(60, 59, 59)!important;
 }
 
 .med-width-whitespace {
@@ -740,6 +739,9 @@ h3 {
 
 h1 {
     color: black!important;
+}
+.text-center2{
+    color:black
 }
 
 h4 {
@@ -752,7 +754,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -840,7 +842,7 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 .partenaires{
-    color: white;
+    color: black;
     font-size: 16px;
 }
 
